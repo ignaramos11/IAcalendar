@@ -1,0 +1,42 @@
+.recommendations-panel {
+  height: 100%;
+}
+
+.recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.recommendation-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--background);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.recommendation-item:hover {
+  transform: translateX(4px);
+}
+
+.rec-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.rec-content {
+  flex: 1;
+}
+
+.rec-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.rec-description {
+  line-height: 1.6;
+}
